@@ -22,7 +22,7 @@ const TodoAdd = ({ onNewTodo }) => {
             description: description,
         }
         //Se manda a llamar la función para agregar el valor a la lista
-        onNewTodo(newTodo)
+        onNewTodo( newTodo );
         onResetForm();
     }
 
